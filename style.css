@@ -36,9 +36,15 @@ a:hover{
     color: rgb(184, 165, 0);
 }
 .logoMenuImg{
-    background-image: url("tourologoevy.png") ;
-    background-size: 162px;
-    width: 10%;
+    width: 40%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.imgTouro{
+    background-repeat: no-repeat;
+    background-size: 3px;
+    width: 40%;
     height: 100px;
 }
 .logoMenu h1{
@@ -106,7 +112,7 @@ p.texto2Carrossel{
 }
 .imgHome1{
     width: 30%;
-    height: 400px;
+    height: 60%;
     margin-bottom: 10px;
     position: relative;
     bottom: 560px;
@@ -114,12 +120,12 @@ p.texto2Carrossel{
 .imgHome2{
     display: flex;
     width: 50%;
-    height: 400px;
+    height: 60%;
     position: relative;
     bottom: 560px;
 }
 .img1{
-    display: flex;
+    display: block;
     width: 80%;
     height: 400px;
 }
@@ -149,6 +155,117 @@ footer{
 .redesSociais{
     color: white;
 }
+/*---------------media care pag HOME---------------*/
+@media only screen and (min-width:0px) and (max-width: 700px){
+    .imgTouro{
+        margin-top: 14px;
+        background-repeat: no-repeat;
+        background-size: 3px;
+        width: 40%;
+        height: 70px; 
+    }
+    .listaMenu1 li{
+        width: 100%;
+        height: 25px;
+        padding: 10px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .listaMenu2 li{
+        position: relative;
+        left: -60px;
+        width: 100%;
+        height: 25px;
+        padding: 10px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width:0px) and (max-width: 1220px){
+    .textoCarrossel1pg{
+        margin-left: -130px;
+        margin-bottom: 350px;
+        font-size: 78px;
+        width: 97%;
+    }
+}
+@media only screen and (min-width:0px) and (max-width: 720px){
+    .imgCarrossel{
+        width: 100%;
+        height: 380px;
+    }
+}
+@media only screen and (min-width:0px) and (max-width: 860px){
+    .img1{
+        display: block;
+        width: 80%;
+        height: 240px;
+    }
+    .img2{
+        display: flex;
+        width: 77%;
+        height: 240px;
+    }
+}
+@media only screen and (min-width:0px) and (max-width: 1215px){
+    .textoHome{
+        border: solid 1px white;
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+        width: 50%;
+        height: 600px;
+        margin-left: 400px;
+    }
+}
+@media only screen and (min-width:0px) and (max-width: 900px){
+    .textoHome{
+        border: solid 1px white;
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+        width: 40%;
+        height: 1050px;
+        margin-bottom: 40px;
+        margin-left: 400px;
+    }
+    .imgHome1{
+        width: 30%;
+        height: 60%;
+        margin-bottom: 10px;
+        position: relative;
+        bottom: 1050px;
+    }
+    .imgHome2{
+        display: flex;
+        width: 50%;
+        height: 60%;
+        position: relative;
+        bottom: 1050px;
+    }
+    .sectionHome{
+        height: 1700px;
+    }
+}
+@media only screen and (min-width:0px) and (max-width: 800px){
+/*     .textoHome{
+        border: solid 1px white;
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+        width: 40%;
+        height: 1050px;
+        margin-bottom: 40px;
+        margin-left: 300px;
+    } */
+}
+
+
+
+
+
 
 /*------------------css pag sobre nos------------------*/
 .bodySobreNos{
