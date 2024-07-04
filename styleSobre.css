@@ -2,18 +2,23 @@
 /*------------------css pag sobre nos------------------*/
 .bodySobreNos{
     background-color: black;
-    background-image: url("lamborghini\ preto.png");
-    background-size: 1400px;
-    background-position: right;
-    background-repeat: no-repeat;
 }
 /*----------------section sobre nos----------------------*/
 .sectionSobreNos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("lambo\ preta\ pag\ sobre.png");
+    background-size: 1520px;
     width: 100%;
     height: 500px;
     display: flex;
 }
 .sectionSobreNos2{
+    background-image: url("lamborghini\ preto.png");
+    background-size: 1400px;
+    background-position: bottom;
+    background-repeat: no-repeat;
     width: 100%;
     height: 800px;
     display: flex;

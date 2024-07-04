@@ -6,6 +6,56 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}.dropDow ul, .subMenu li{
+    margin: 0;
+    padding: 0;
+}
+.dropDow ul{
+    background-color: gray;
+    list-style: none;
+    width: 100%;
+}
+.dropDow li{
+    float: left;
+    position: relative;
+    width: auto;
+
+}
+.dropDow a{
+    background-color: rgb(122, 122, 122);
+    color: white;
+    display: block;
+    font-size: bold 12px/20px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+}
+
+.dropDow li:hover a{
+    background: black;
+}
+
+.subMenu{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    top: 35px;
+}
+
+li:hover ul.subMenu{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}
+
+.subMenu li:hover a{
+    background: rgb(255, 0, 0);
+}
+.subMenu li{
+    float: none;
+    width: 100%;
 }
 .listaMenu1{
     width: 25%;
