@@ -6,23 +6,22 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}.dropDow ul, .subMenu li{
+}
+.listaMenu2 ul, .subMenu li{
     margin: 0;
     padding: 0;
 }
-.dropDow ul{
-    background-color: gray;
+.listaMenu2 ul{
     list-style: none;
     width: 100%;
 }
-.dropDow li{
+.listaMenu2 li{
     float: left;
     position: relative;
     width: auto;
 
 }
-.dropDow a{
-    background-color: rgb(122, 122, 122);
+.listaMenu2 a{
     color: white;
     display: block;
     font-size: bold 12px/20px;
@@ -32,7 +31,7 @@ header{
     -webkit-transition: all .25s ease;
 }
 
-.dropDow li:hover a{
+.listaMenu2 li:hover a{
     background: black;
 }
 
