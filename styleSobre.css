@@ -1,0 +1,36 @@
+
+/*------------------css pag sobre nos------------------*/
+.bodySobreNos{
+    background-color: black;
+    background-image: url("lamborghini\ preto.png");
+    background-size: 1400px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+/*----------------section sobre nos----------------------*/
+.sectionSobreNos{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.sectionSobreNos2{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textoSobreNos{
+    width: 80%;
+    height: 220px;
+    margin-bottom: 420px;
+}
+p.textoPgHomeSobreNos{
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    margin-top: 1px;
+    margin-top: 10px;
+    font-size: 1.3vw;
+}
+/*-------------------------------------------------------------*/

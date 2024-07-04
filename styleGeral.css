@@ -1,0 +1,109 @@
+/*------------------header geral---------------------*/
+header{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listaMenu1{
+    width: 25%;
+    height: 60px;
+}
+.listaMenu1 ul{
+    display: flex;
+    width: 80%;
+}
+.listaMenu1 li{
+    width: 50%;
+    height: 25px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgb(184, 165, 0);
+}
+.logoMenuImg{
+    width: 40%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.imgTouro{
+    background-repeat: no-repeat;
+    background-size: 3px;
+    width: 40%;
+    height: 100px;
+}
+.logoMenu h1{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.listaMenu2{
+    width: 25%;
+    height: 60px;
+}
+.listaMenu2 ul{
+    list-style-type: none;
+    display: flex;
+    width: 80%;
+}
+.listaMenu2 li{
+    width: 50%;
+    height: 25px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+/*---------------------footer geral--------------------------*/
+footer{
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.adm{
+    color: white;
+}
+.redesSociais{
+    color: white;
+}
+/*---------------media care header ---------------*/
+@media only screen and (min-width:0px) and (max-width: 700px){
+    .imgTouro{
+        margin-top: 14px;
+        background-repeat: no-repeat;
+        background-size: 3px;
+        width: 40%;
+        height: 70px; 
+    }
+    .listaMenu1 li{
+        width: 100%;
+        height: 25px;
+        padding: 10px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .listaMenu2 li{
+        position: relative;
+        left: -60px;
+        width: 100%;
+        height: 25px;
+        padding: 10px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+}
