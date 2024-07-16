@@ -1,4 +1,7 @@
-.sectionRevuelto2{
+.bodyRevuelto{
+    background-color: black;
+}
+.sectionRevuelto3{
     background: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
@@ -12,3 +15,60 @@
     width: 100%;
     height: 100%;
 }
+
+.sectionBack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("back\ revuelto\ 1.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+}
+.textoRevuelto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 50%;
+    height: 450px;
+}
+p.textoPgRevuelto{
+    position: relative;
+    left: 300px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    margin-top: 1px;
+    margin-top: 10px;
+    font-size: 1vw;
+}
+
+.sectionBack2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("back\ revuelto\ 2.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+.textoRevuelto2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 50%;
+    height: 450px;
+}
+p.textoPgRevuelto2{
+    position: relative;
+    right: 300px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    margin-top: 1px;
+    margin-top: 10px;
+    font-size: 1vw;
+}
+
