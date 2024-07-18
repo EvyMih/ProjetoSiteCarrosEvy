@@ -46,7 +46,7 @@ p.textoPgHome{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("back\ carros.png");
+    background-image: url("../imgHome/back\ carros.png");
     background-repeat: no-repeat;
     
 }

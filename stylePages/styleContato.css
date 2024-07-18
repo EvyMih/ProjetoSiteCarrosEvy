@@ -1,0 +1,9 @@
+.bodyContato{
+    background-color: black;
+}
+.sectionContato{
+    background-image: url("../imgContato/BACK\ CONTATO.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}

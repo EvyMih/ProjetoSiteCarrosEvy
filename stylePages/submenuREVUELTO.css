@@ -1,7 +1,7 @@
-.bodyAventador{
+.bodyRevuelto{
     background-color: black;
 }
-.sectionAventador3{
+.sectionRevuelto3{
     background: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@
     width: 100%;
     height: 600px;
 }
-.videoAventador{
+.videoRevuelto{
     background: rgb(0, 0, 0);
     border: solid 1px;
     width: 100%;
@@ -20,12 +20,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("back\ aventador\ 1.png");
+    background-image: url("../imgModeloRevuelto/back\ revuelto\ 1.png");
     background-repeat: no-repeat;
     width: 100%;
     height: 550px;
 }
-.textoAventador{
+.textoRevuelto{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@
     width: 50%;
     height: 450px;
 }
-p.textoPgAventador{
+p.textoPgRevuelto{
     position: relative;
     left: 300px;
     display: flex;
@@ -48,12 +48,12 @@ p.textoPgAventador{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("back\ aventador\ 2.png");
+    background-image: url("../imgModeloRevuelto/back\ revuelto\ 2.png");
     background-repeat: no-repeat;
     width: 100%;
     height: 600px;
 }
-.textoAventador2{
+.textoRevuelto2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +61,7 @@ p.textoPgAventador{
     width: 50%;
     height: 450px;
 }
-p.textoPgAventador2{
+p.textoPgRevuelto2{
     position: relative;
     right: 300px;
     display: flex;
@@ -71,4 +71,3 @@ p.textoPgAventador2{
     margin-top: 10px;
     font-size: 1vw;
 }
-

@@ -111,6 +111,8 @@ a:hover{
 }
 /*---------------------footer geral--------------------------*/
 footer{
+    border: solid 1px white;
+    background-color: black;
     padding: 70px;
     display: flex;
     justify-content: space-between;

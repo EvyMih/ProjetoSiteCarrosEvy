@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("BACK\ HURA\ 1.png");
+    background-image: url("../imgModeloHuracan/BACK\ HURA\ 1.png");
     background-repeat: no-repeat;
     width: 100%;
     height: 550px;
@@ -48,7 +48,7 @@ p.textoPgHuracan{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("BACK\ HURA\ 2.png");
+    background-image: url("../imgModeloHuracan/BACK\ HURA\ 2.png");
     background-repeat: no-repeat;
     width: 100%;
     height: 600px;
@@ -71,4 +71,3 @@ p.textoPgHuracan2{
     margin-top: 10px;
     font-size: 1vw;
 }
-
